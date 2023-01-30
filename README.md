@@ -24,15 +24,15 @@ npm run build
     webpack-seed/
     ├── src/
     │   ├── index.html
-    │   └── script/
-    │   │   └── index.js
+    │   ├── script/
+    │   │   ├── index.js
     │   │   └── comps/
-    │   └── style/
-    │   │   └── index.scss
-    │   │   └── base/
+    │   ├── style/
+    │   │   ├── index.scss
+    │   │   ├── base/
     │   │   └── comps/
     │   └── assets/
-    │       └── fonts/
+    │       ├── fonts/
     │       └── images/
     │           └── favicon/
     └── webpack.config.js

@@ -9,7 +9,6 @@ A simple webpack seed for static HTML sites with SCSS.
 ## File Structure
 
 
-    ```properties
     webpack-seed/
     ├── src/
     │   ├── index.html
@@ -26,13 +25,20 @@ A simple webpack seed for static HTML sites with SCSS.
     │           └── favicon/
     └── webpack.config.js
 
-    ```
 
 ## Scripts 
-* npm start: Runs the development server
-* npm run watch: Runs webpack in development mode with watch mode on
-* npm run build: Runs webpack in production mode
-* npm run test: No tests specified
+Runs the development server 
+```sh
+npm start
+```
+Runs webpack in development mode with watch mode on
+```sh
+npm run watch
+```
+Runs webpack in production mode
+```sh
+npm run build
+```
 ## Dependencies
 * clean-webpack-plugin
 * css-loader

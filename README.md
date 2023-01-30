@@ -2,10 +2,22 @@
 A simple webpack seed for static HTML sites with SCSS.
 
 ## Getting Started
-1. Clone the repository: https://github.com/nerkat/webpack-seed.git
-2. Install dependencies: npm install
-3. Start the development server: npm run start
-4. Build for production: npm run build
+1. Clone the repository
+```sh
+git clone https://github.com/nerkat/webpack-seed.git
+```
+2. Install dependencies
+```sh
+npm install
+```
+3. Start the development server
+```sh
+npm run start
+```
+4. Build for production
+```sh
+npm run build
+```
 ## File Structure
 
 
@@ -53,8 +65,8 @@ npm run build
 * image-webpack-loader
 * webpack
 * webpack-cli
-* License
-* This project is licensed under the ISC License.
+## License
+This project is licensed under the ISC License.
 
 ## Bugs
 Report bugs at https://github.com/nerkat/webpack-seed/issues.

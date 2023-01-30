@@ -18,7 +18,7 @@
   "bugs": {
     "url": "https://github.com/nerkat/webpack-seed/issues"
   },
-  "homepage": "https://github.com/nerkat/webpack-seed#readme"
+  "homepage": "https://github.com/nerkat/webpack-seed#readme",
   "dependencies": {
     "clean-webpack-plugin": "^4.0.0",
     "css-loader": "^6.7.3",

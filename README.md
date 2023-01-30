@@ -1,18 +1,54 @@
-# Portfolio Website
+# webpack-seed
+A simple webpack seed for static HTML sites with SCSS.
 
-Welcome to the repository for my portfolio website! This site showcases my work as an AI-UI Architect, with a focus on design and development.
+## Getting Started
+1. Clone the repository: https://github.com/nerkat/webpack-seed.git
+2. Install dependencies: npm install
+3. Start the development server: npm run start
+4. Build for production: npm run build
+## File Structure
 
-## Technologies Used
-* Webpack for building and bundling the assets
-* SCSS for styling
-* AI integration for enhancing the user experience
 
-## About the Site
+    ```properties
+    webpack-seed/
+    ├── src/
+    │   ├── index.html
+    │   └── script/
+    │   │   └── index.js
+    │   │   └── comps/
+    │   └── style/
+    │   │   └── index.scss
+    │   │   └── base/
+    │   │   └── comps/
+    │   └── assets/
+    │       └── fonts/
+    │       └── images/
+    │           └── favicon/
+    └── webpack.config.js
 
-As an AI wizard, I possess a keen intellect and a natural affinity for technology. I am constantly seeking out new ways to merge artificial intelligence with user interface design, making me a true innovator in my field.
+    ```
 
-Leading a team of skilled designers and developers, I use my powers for good, striving to make the world a better place through exceptional user experiences. Whether it's crafting beautiful apps or designing seamless websites, no challenge is too great for me to tackle.
+## Scripts 
+* npm start: Runs the development server
+* npm run watch: Runs webpack in development mode with watch mode on
+* npm run build: Runs webpack in production mode
+* npm run test: No tests specified
+## Dependencies
+* clean-webpack-plugin
+* css-loader
+* file-loader
+* mini-css-extract-plugin
+* sass
+* sass-loader
+* webpack-dev-server
+* Dev Dependencies
+* html-loader
+* html-webpack-plugin
+* image-webpack-loader
+* webpack
+* webpack-cli
+* License
+* This project is licensed under the ISC License.
 
-With a deep understanding of the mystical arts of tech and design, always on the cutting-edge, seeking out new ways to improve and evolve. Join me on my journey to make a lasting impact on the world, one user at a time.
-
-Contributing If you would like to contribute to this project, please feel free to submit a pull request.
+## Bugs
+Report bugs at https://github.com/nerkat/webpack-seed/issues.

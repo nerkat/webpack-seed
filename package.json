@@ -1,5 +1,5 @@
 {
-  "name": "portfolio",
+  "name": "webpack-seed",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nerkat/portfolio.git"
+    "url": "git+https://github.com/nerkat/webpack-seed.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/nerkat/portfolio/issues"
+    "url": "https://github.com/nerkat/webpack-seed/issues"
   },
-  "homepage": "https://github.com/nerkat/portfolio#readme",
+  "homepage": "https://github.com/nerkat/webpack-seed#readme"
   "dependencies": {
     "clean-webpack-plugin": "^4.0.0",
     "css-loader": "^6.7.3",
